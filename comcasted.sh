@@ -2,7 +2,7 @@
 set -e
 
 function log {
-    echo -e "[$(date)]: $*"
+    echo -e "$*"
 }
 
 function logerr {
